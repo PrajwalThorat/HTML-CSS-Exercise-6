@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    color: white;
+}
+
+.nav-bar>ul {
+    display: flex;
+}
+
+.nav-bar>ul>li {
+    padding: 15px;
+}
+
+.nav-bar>ul>li>a {
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.search-bar>input[type=search] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.search-bar>button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(51, 184, 73);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.login-signup {
+    padding: 10px;
+    padding-left: 40%;
+}
+
+.login-signup>a {
+    color: white;
+    padding: 8px;
+}
+
+.red-line {
+    width: 100%;
+    background-color: red;
+    padding: 3px;
+}
+
+.menu-bar {
+    padding: 5px;
+}
+
+.menu-bar>a {
+    padding: 8px;
+}
+
+.line {
+    padding: 3px;
+}
+
+section>h2 {
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    margin-bottom: 16px;
+    padding: 0 12px;
+}
+
+.column :hover {
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+}
+
+.name {
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    padding-top: 50px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card>img {
+    width: 100px;
+    height: 300px;
+    align-items: center;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.price {
+    color: grey;
+    text-align: center;
+    padding: 5px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(231, 10, 10);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: rgb(49, 47, 47);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0%;
+}
+
+footer>p {
+    color: white;
+    padding: 10px;
+}
